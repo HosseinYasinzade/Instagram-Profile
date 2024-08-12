@@ -16,6 +16,7 @@ body {
   margin: 5vh auto;
   padding: 20px 10px;
   background-color: rgb(37, 37, 37);
+  overflow-y: scroll;
 }
 .head-menu {
   display: flex;
@@ -136,4 +137,12 @@ body {
   padding: 1vh 0;
   border-top: 0.5px solid #535353;
   border-bottom: 0.5px solid #535353;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.post-img {
+  width: 32.3%;
+  height: 152px;
 }

@@ -29,3 +29,44 @@ body {
   display: flex;
   align-items: center;
 }
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+}
+.profile-line {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(to right bottom, #ff0062, #ffee00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 120px;
+}
+.profile {
+  width: 115px;
+  height: 115px;
+  background-color: rgb(37, 37, 37);
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 95%;
+  border-radius: 100px;
+}
+.prof-info {
+  width: 60%;
+}
+.prof-num {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.prof-txt {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+}

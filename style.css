@@ -38,7 +38,7 @@ body {
 .profile-line {
   width: 120px;
   height: 120px;
-  background: linear-gradient(to right bottom, #ff0062, #ffee00);
+  background: linear-gradient(to right bottom, #8c00ff, #ff0062, #ffee00);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,4 +69,8 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 1vh;
+}
+.bio {
+  margin-top: 3vh;
+  font-size: 16px;
 }
